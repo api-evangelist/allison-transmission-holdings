@@ -1,7 +1,12 @@
 aid: allison-transmission-holdings
-url: https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.allison-transmission-holdings.com
+description: >-
+  Allison Transmission Holdings is a designer and manufacturer of fully automatic
+  transmissions for medium- and heavy-duty commercial vehicles and medium- and heavy-tactical
+  military vehicles.
