@@ -1,12 +1,77 @@
 aid: allison-transmission-holdings
-url: 
-  https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/apis.yml
-modified: '2026-03-23'
-apis: []
-common:
-  - type: Website
-    url: https://www.allison-transmission-holdings.com
+url: https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/apis.yml
+name: Allison Transmission Holdings
+tags:
+  - Automotive
+  - Commercial Vehicles
+  - Manufacturing
+  - Telematics
+  - Connected Vehicles
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 description: >-
   Allison Transmission Holdings is a designer and manufacturer of fully automatic
   transmissions for medium- and heavy-duty commercial vehicles and medium- and heavy-tactical
-  military vehicles.
+  military vehicles. The company offers connected vehicle services through the Allison
+  Connected Services platform, providing telematics and diagnostic data integration for
+  fleet operators and OEM vehicle manufacturers.
+created: '2024-01-01'
+modified: '2026-04-19'
+specificationVersion: '0.19'
+apis: []
+common:
+  - url: https://www.allisontransmission.com/
+    type: Website
+  - url: https://www.allisontransmission.com/en/technology
+    type: Documentation
+  - url: https://www.allisontransmission.com/en/service-and-parts/allison-hub
+    type: Portal
+  - type: Features
+    data:
+      - name: Allison Connected Services
+        description: >-
+          Telematics and connected vehicle platform enabling real-time transmission
+          health monitoring, diagnostic data, and performance analytics for fleet
+          operators and OEM partners.
+      - name: Allison HUB
+        description: >-
+          Digital shop-floor resource providing technicians and service centers
+          with access to service information, diagnostics, and repair documentation
+          for Allison transmissions.
+      - name: Transmission Diagnostics
+        description: >-
+          Remote diagnostic capabilities for monitoring transmission performance,
+          fault codes, and predictive maintenance alerts across commercial vehicle
+          fleets.
+      - name: OEM Integration
+        description: >-
+          Technical integration capabilities for OEM vehicle manufacturers to
+          embed Allison transmission data into vehicle telematics and connected
+          vehicle platforms.
+  - type: UseCases
+    data:
+      - name: Fleet Telematics Integration
+        description: >-
+          Enable fleet management systems to receive real-time transmission health
+          and performance data from Allison-equipped commercial vehicles.
+      - name: Predictive Maintenance
+        description: >-
+          Use transmission diagnostic data to predict maintenance needs and reduce
+          unplanned downtime for medium- and heavy-duty commercial vehicle fleets.
+      - name: OEM Vehicle Connectivity
+        description: >-
+          Integrate Allison transmission data into OEM-built connected vehicle
+          platforms for commercial trucks and buses.
+  - type: Integrations
+    data:
+      - name: Fleet Management Platforms
+        description: >-
+          Integration with third-party fleet management and telematics platforms
+          for transmission health monitoring and performance analytics.
+      - name: OEM Telematics
+        description: >-
+          OEM vehicle manufacturer telematics integration for embedding transmission
+          data in connected vehicle dashboards and driver interfaces.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
