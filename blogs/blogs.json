@@ -1,0 +1,14 @@
+{
+  "repo": "allison-transmission-holdings",
+  "feeds": [
+    {
+      "source": "https://www.allisontransmission.com/newsroom",
+      "feed_url": "https://www.allisontransmission.com/newsroom",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-08-15T12:22:01Z",
+  "post_count": 13
+}
