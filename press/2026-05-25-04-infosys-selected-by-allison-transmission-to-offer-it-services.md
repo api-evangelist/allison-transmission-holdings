@@ -1,7 +1,9 @@
 ---
 title: Infosys Selected by Allison Transmission to Offer IT Services
 url: https://finance.yahoo.com/news/infosys-selected-allison-transmission-offer-214809090.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Allison Transmission Holdings" press release artificial intelligence'
 position: 4
 source: serpapi-google
